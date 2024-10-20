@@ -1,0 +1,285 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.navbar {
+  background: #131313;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+#navbar__logo {
+  background-color: #f18177;
+  background-image: linear-gradient(to top, #ff0084 0%, #ffb199 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem; /*1 rem = 16 px/pixel*/
+}
+
+.fa-gem {
+  margin-right: 0.5rem;
+}
+
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar__item {
+  height: 80px;
+}
+
+.navbar__links {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+}
+
+.navbar__btn {
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%; 
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 30%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #f77062;
+  color: #fff;
+}
+
+
+.button:hover {
+  background: #ffb199;
+  transition: all 0.3s ease;
+}
+
+.navbar__links:hover {
+  color: #f77062;
+  transition: all 0.3s ease;
+}
+
+
+
+/* Hero Section Css */
+
+.Hero-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hero-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff
+}
+
+.Hero-text{
+  margin: 350px;
+  width: 100%;
+}
+
+.Hero-text button{
+  margin-top: 2rem;
+  padding: 16px 32px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid #131313;
+}
+
+.Hero-text button:hover{
+  color: #fff;
+  background-color: #f18177;
+  transition: all 0.3s ease;
+}
+
+.Hero-text h1{
+  text-align: left;
+}
+
+.Hero-text p{
+  text-align: left;
+}
+
+.Hero-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Img-container{
+  width: 600px;
+}
+
+.Img-container img{
+  height: 200px;
+  width: 220px;
+  border-radius: 10px;
+}
+
+section .Majority-background{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Majority-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  height: 100vh;
+  background-image: url(/LearnForWeb/ProjectKecil/FandowLIke/image/Backgroud.png);
+  background-attachment: fixed;
+}
+
+.Majority-card{
+  align-items: center;
+  margin-top: 300px;
+  height: 300px;
+  width: 1200px;
+  border-radius: 20px;
+  background-color: #fdaa62;
+  transition: all .3s;
+}
+
+.Majority-card:hover{
+  transform: translateY(-20px);
+  background-color: #ffb199
+}
+
+.Majority-text{
+  margin-top: 80px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.Bargain-section{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+}
+
+.Bargain-content{
+  width: 60%;
+  padding: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Bargain-content h1{
+  font-size: 50px;
+  margin: 50px;
+}
+
+.Bargain-content p{
+  font-size: small;
+  text-align: center;
+}
+
+.Img-bargain{
+  margin: 200px;
+  width: 60%;
+  height: 50%;
+  padding: 50px;
+  display: flex;
+}
+
+.Img-bargain img{
+  border-radius: 15px;
+}
+
+footer{
+  background-color: #fff;
+  padding: 50px;
+}
+
+.Profile-container{
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.Content p{
+  text-align: center;
+  width: 190px;
+  margin: auto;
+  padding: 7px;
+}
+
+.Content button{
+  margin-left: 30px;
+  padding: 16px 32px;
+  margin-top: 2rem;
+  padding: 16px 32px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid #131313;
+}
+
+.Content button:hover{
+  color: #fff;
+  background-color: #f18177;
+  transition: all 0.3s ease;
+}
+
+.Input-email input{
+  margin-left: 9px;
+}
